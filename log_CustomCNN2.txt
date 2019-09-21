@@ -1,0 +1,27 @@
+2019-07-21 21:08:46.974670: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-21 21:08:47.159867: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-21 21:08:47.160452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla P40 major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:00:05.0
+totalMemory: 23.87GiB freeMemory: 23.71GiB
+2019-07-21 21:08:47.270181: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-21 21:08:47.270769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 1 with properties: 
+name: Tesla P40 major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:00:06.0
+totalMemory: 23.87GiB freeMemory: 23.71GiB
+2019-07-21 21:08:47.270815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0, 1
+2019-07-21 21:08:47.818796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-21 21:08:47.818854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 1 
+2019-07-21 21:08:47.818862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N N 
+2019-07-21 21:08:47.818866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 1:   N N 
+2019-07-21 21:08:47.819656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 23004 MB memory) -> physical GPU (device: 0, name: Tesla P40, pci bus id: 0000:00:05.0, compute capability: 6.1)
+2019-07-21 21:08:48.070514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 23004 MB memory) -> physical GPU (device: 1, name: Tesla P40, pci bus id: 0000:00:06.0, compute capability: 6.1)
+2019-07-21 21:09:00.749031: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 929 of 7518
+2019-07-21 21:09:10.745039: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 1822 of 7518
+2019-07-21 21:09:20.746007: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 2737 of 7518
+2019-07-21 21:09:30.746844: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 3654 of 7518
+2019-07-21 21:09:40.744778: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 4562 of 7518
+2019-07-21 21:09:50.744366: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 5460 of 7518
+2019-07-21 21:10:00.749275: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 6398 of 7518
+2019-07-21 21:10:10.743592: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:95] Filling up shuffle buffer (this may take a while): 7294 of 7518
+2019-07-21 21:10:13.291980: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:131] Shuffle buffer filled.
